@@ -1,0 +1,17 @@
+.app {
+  text-align: center;
+  min-height: 100vh;
+  display: grid;
+
+  grid-template-rows: max-content auto max-content;
+}
+
+.app.dark {
+  background: black;
+  color: rgb(200, 200, 200);
+}
+
+.app.light {
+  background: white;
+  color: black;
+}

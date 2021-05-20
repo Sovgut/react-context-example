@@ -1,0 +1,28 @@
+.header {
+  font-weight: bold;
+  font-size: 7rem;
+  min-height: 700px;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.header.dark {
+  color: rgb(200, 200, 200);
+}
+.header.light {
+  color: black;
+}
+
+.header div {
+  font-size: 2rem;
+  font-weight: normal;
+}
+
+.user-dirt-state {
+  color: orange;
+}
+.user-saved-state {
+  color: green;
+}

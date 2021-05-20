@@ -1,0 +1,42 @@
+.username-form label {
+  text-align: left;
+  display: grid;
+
+  gap: 1rem;
+  font-weight: bold;
+}
+
+.username-form input {
+  border: none;
+  padding: 1rem;
+  border-radius: 0.25rem 0rem 0rem 0.25rem;
+  width: calc(80% - 1rem);
+}
+
+.username-form button {
+  border: none;
+  padding: 1rem;
+  border-radius: 0rem 0.25rem 0.25rem 0rem;
+  width: calc(20% - 1rem);
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.username-form.dark input {
+  background: rgb(40, 40, 40);
+  color: rgb(200, 200, 200);
+}
+.username-form.light input {
+  background: rgb(220, 220, 220);
+  color: black;
+}
+
+.username-form.dark button {
+  background: rgb(50, 50, 50);
+  color: rgb(200, 200, 200);
+}
+.username-form.light button {
+  background: rgb(230, 230, 230);
+  color: black;
+}

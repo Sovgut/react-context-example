@@ -1,0 +1,19 @@
+.theme-toggle-button {
+  border: none;
+  border-radius: 0.25rem;
+  padding: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: max-content;
+  height: max-content;
+}
+
+.theme-toggle-button.dark {
+  background: rgb(50, 50, 50);
+  color: rgb(200, 200, 200);
+}
+.theme-toggle-button.light {
+  background: rgb(230, 230, 230);
+  color: black;
+}
